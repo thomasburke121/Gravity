@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px;
+  padding-top: 56px;
   background-color: antiquewhite;
 }
 
@@ -17,11 +17,30 @@ body {
   margin-bottom: 30px;
 }
 
+//Gradient navbar
+/*
 .navbar {
-  background-color: lightskyblue;
+ background: rgb(130,23,28);
+  background: linear-gradient(90deg, rgba(130,23,28,1) 0%, rgba(248,248,248,1) 100%);
+}
+*/
+
+//Solid navbar
+.navbar {
+  background-color: #82171c!important;
 }
 
-.nav-link:hover {
-  box-shadow: 0 12px 16px 0 rgba(161, 17, 17, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+.navbar-dark .navbar-nav .nav-link {
   color: white;
+}
+.nav-item a:hover {
+  border-bottom: 2px solid #82171c;
+}
+
+ .nav-item a.active {
+  border-bottom: 2px solid #82171c;
+}
+
+.bg-dark {
+    background-color: #82171c!important;
 }
